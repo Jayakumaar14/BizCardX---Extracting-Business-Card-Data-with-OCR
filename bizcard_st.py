@@ -7,18 +7,6 @@ import base64
 import cv2
 
 import re
-# myconnection = pymysql.connect(host='127.0.0.1',user='root',passwd='yourpwd',database='bizcardx')
-# cur = myconnection.cursor()
-
-# table_create_sql = '''CREATE TABLE IF NOT EXISTS mytable (ID INTEGER PRIMARY KEY AUTOINCREMENT,
-#                                                          Name TEXT,Designation TEXT,
-#                                                         Company_name TEXT,
-#                                                         Address TEXT,
-#                                                         Contact_number TEXT,
-#                                                         Mail_id TEXT,
-#                                                         Website_link TEXT,
-#                                                         Image BLOB);'''
-# cur.execute(table_create_sql)
 
 ##-------------------Code for Background image------------------------##
 st.set_page_config(layout='wide')
